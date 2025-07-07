@@ -19,23 +19,20 @@ The evaluation is performed not only visually but also through quantitative metr
 
 ## 📊 Results Showcase
 
-The results clearly demonstrate that the best filter choice depends on the type of noise being addressed.
+The notebook processes an original image by applying two different types of noise to it.
+
+![Noise Generation](assets/showcase_noise_types.png)
 
 ### Case 1: Salt-and-Pepper Noise
-The Median Filter shows superior performance, effectively eliminating the impulse noise.
+For salt-and-pepper noise, the **Median Filter** provides a significantly better result. This is confirmed by both visual inspection and the higher PSNR/SSIM scores displayed in the output.
 
-| Original + Noise | Median Filter (Best) | Bilateral Filter |
-| :---: | :---: | :---: |
-| <img src="assets/sp_noise.png" width="250"> | <img src="assets/sp_median_result.png" width="250"> | <img src="assets/sp_bilateral_result.png" width="250"> |
-| **PSNR/SSIM:** N/A | **PSNR: XX.XX** <br> **SSIM: 0.XXX** | **PSNR: XX.XX** <br> **SSIM: 0.XXX** |
+![Salt-and-Pepper Filter Comparison](assets/showcase_salt_and_pepper.png)
 
 ### Case 2: Gaussian Noise
-The Bilateral Filter excels at preserving edges while smoothing, resulting in a higher structural similarity and better visual quality.
+For Gaussian noise, the **Bilateral Filter** excels at preserving edges while smoothing, making it the superior choice for this scenario.
 
-| Original + Noise | Median Filter | Bilateral Filter (Best) |
-| :---: | :---: | :---: |
-| <img src="assets/gaussian_noise.png" width="250"> | <img src="assets/gaussian_median_result.png" width="250"> | <img src="assets/gaussian_bilateral_result.png" width="250"> |
-| **PSNR/SSIM:** N/A | **PSNR: XX.XX** <br> **SSIM: 0.XXX** | **PSNR: XX.XX** <br> **SSIM: 0.XXX** |
+![Gaussian Filter Comparison](assets/showcase_gaussian.png)
+
 ---
 
 ## 🚀 Installation & Setup
