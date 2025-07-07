@@ -21,7 +21,7 @@ The evaluation is performed not only visually but also through quantitative metr
 
 The notebook processes an original image by applying two different types of noise to it.
 
-![Noise Generation](assets/showcase_noise_types.png)
+![Noise Generation](assets/noise_types.png)
 
 ### Case 1: Salt-and-Pepper Noise
 For salt-and-pepper noise, the **Median Filter** provides a significantly better result. This is confirmed by both visual inspection and the higher PSNR/SSIM scores displayed in the output.
