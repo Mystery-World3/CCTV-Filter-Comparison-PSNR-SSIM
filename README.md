@@ -26,12 +26,12 @@ The notebook processes an original image by applying two different types of nois
 ### Case 1: Salt-and-Pepper Noise
 For salt-and-pepper noise, the **Median Filter** provides a significantly better result. This is confirmed by both visual inspection and the higher PSNR/SSIM scores displayed in the output.
 
-![Salt-and-Pepper Filter Comparison](assets/showcase_salt_and_pepper.png)
+![Salt-and-Pepper Filter Comparison](assets/sp_noise.png")
 
 ### Case 2: Gaussian Noise
 For Gaussian noise, the **Bilateral Filter** excels at preserving edges while smoothing, making it the superior choice for this scenario.
 
-![Gaussian Filter Comparison](assets/showcase_gaussian.png)
+![Gaussian Filter Comparison](assets/gaussian_noise.png)
 
 ---
 
