@@ -42,8 +42,8 @@ The Bilateral Filter excels at preserving edges while smoothing, resulting in a 
 
 1.  **Clone this repository:**
     ```bash
-    git clone [https://www.andarepository.com/](https://www.andarepository.com/)
-    cd [Nama Repositori Anda]
+    git clone https://github.com/Mystery-World3/CCTV-Filter-Comparison-PSNR-SSIM.git
+    cd CCTV-Filter-Comparison-PSNR-SSIM
     ```
 
 2.  **Create and activate a virtual environment (highly recommended):**
